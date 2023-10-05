@@ -1,0 +1,52 @@
+! Title: 我不要米哈游跟踪器！
+
+! 融云日志
+||logcollection.ronghub.com^
+||stats.rong-edge.com^
+||rongnav.com^
+! 字节跳动日志
+||toblog.volceapplog.com^
+||klink.volceapplog.com^
+||apmplus.volces.com^
+! 字节SDK
+||stream.snssdk.com^
+! 创蓝闪验SDK
+||sysdk.cl2009.com^
+! 米游社
+||sentry-inc.ssr.mihoyo.com^
+||minor-api.mihoyo.com^
+||abtest-api-data.mihoyo.com^
+||apm-api.mihoyo.com^
+||log-upload.mihoyo.com^
+||h5collector.mihoyo.com^
+||bbs-api.miyoushe.com/apihub/api/saveDevice
+||bbs-api.miyoushe.com/apihub/api/deviceLogin
+||bbs-api.miyoushe.com/painter/api/villa/notification/site_push
+||bbs-api.miyoushe.com/teenager/api/info
+||bbs-api.miyoushe.com/apihub/api/window/prepare
+||bbs-api.miyoushe.com/apihub/api/window/show
+||bbs-api.miyoushe.com/post/api/homepage/user/video/feed/info
+||bbs-api.miyoushe.com/apihub/api/myselfPageConfig
+||bbs-api.miyoushe.com/post/wapi/recommend/position
+||api-takumi.mihoyo.com/common/csc_qna/public/getRedDot
+||passport-api-static.mihoyo.com/account/ma-cn-passport/passport/getSwitchStatus
+! 极光推送 ||smartop-sdkapi.jiguang.cn^
+! 米游社PC端网页元素
+miyoushe.com##.mhy-ad-container
+miyoushe.com##.mhy-ad
+miyoushe.com##.game-tool
+miyoushe.com##.mhy-qrcode-download-card
+miyoushe.com##.mhy-qrcode-top-card
+miyoushe.com##.mhy-rocket
+! HoYoLab
+||sentry.eks.hoyoverse.com^
+||minor-api-os.hoyoverse.com^
+||log-upload-os.hoyoverse.com^
+||log-upload-os.mihoyo.com^
+||abtest-api-data-sg.hoyoverse.com^
+act.hoyolab.com/ys/event/signin-sea-v3/index.html##[class*="recommend"]
+
+! 原神
+||ys-log-upload.mihoyo.com^
+||devlog-upload.mihoyo.com^
+||uspider.yuanshen.com^
