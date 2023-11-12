@@ -1,4 +1,7 @@
+
 ! Title: 我不要米哈游跟踪器！
+! Description: 禁止米哈游的米游社和原神等应用与游戏的跟踪器！
+! Version: 1.0.2
 
 ! 融云日志
 ||logcollection.ronghub.com^
@@ -12,6 +15,10 @@
 ||stream.snssdk.com^
 ! 创蓝闪验SDK
 ||sysdk.cl2009.com^
+! 极光推送
+||smartop-sdkapi.jiguang.cn^
+||smartop-sdkapi-ipv6.jiguang.cn^
+||report-stats.ad.jiguang.cn^
 ! 米游社
 ||sentry-inc.ssr.mihoyo.com^
 ||minor-api.mihoyo.com^
@@ -19,9 +26,11 @@
 ||apm-api.mihoyo.com^
 ||log-upload.mihoyo.com^
 ||h5collector.mihoyo.com^
+||ad-log-upload.mihoyo.com^
 ||bbs-api.miyoushe.com/apihub/api/saveDevice
 ||bbs-api.miyoushe.com/apihub/api/deviceLogin
 ||bbs-api.miyoushe.com/painter/api/villa/notification/site_push
+||bbs-api.miyoushe.com/video/api/view^
 ||bbs-api.miyoushe.com/teenager/api/info
 ||bbs-api.miyoushe.com/apihub/api/window/prepare
 ||bbs-api.miyoushe.com/apihub/api/window/show
@@ -29,8 +38,11 @@
 ||bbs-api.miyoushe.com/apihub/api/myselfPageConfig
 ||bbs-api.miyoushe.com/post/wapi/recommend/position
 ||api-takumi.mihoyo.com/common/csc_qna/public/getRedDot
+||https://bbs-api.miyoushe.com/vila/api/memberGetIsNeedTestInvitationPopup^
 ||passport-api-static.mihoyo.com/account/ma-cn-passport/passport/getSwitchStatus
-! 极光推送 ||smartop-sdkapi.jiguang.cn^
+! 更新检测
+||https://api-takumi.miyoushe.com/ptolemaios_api/api/getLatestRelease^
+
 ! 米游社PC端网页元素
 miyoushe.com##.mhy-ad-container
 miyoushe.com##.mhy-ad
@@ -44,6 +56,7 @@ miyoushe.com##.mhy-rocket
 ||log-upload-os.hoyoverse.com^
 ||log-upload-os.mihoyo.com^
 ||abtest-api-data-sg.hoyoverse.com^
+! HoYoLab签到福利网页元素
 act.hoyolab.com/ys/event/signin-sea-v3/index.html##[class*="recommend"]
 
 ! 原神
