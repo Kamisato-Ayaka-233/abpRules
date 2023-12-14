@@ -24,6 +24,7 @@
 ||minor-api.mihoyo.com^
 ||abtest-api-data.mihoyo.com^
 ||apm-api.mihoyo.com^
+||apm-log-upload.mihoyo.com^
 ||log-upload.mihoyo.com^
 ||h5collector.mihoyo.com^
 ||ad-log-upload.mihoyo.com^
@@ -43,7 +44,6 @@
 ! 更新检测
 ||api-takumi.miyoushe.com/ptolemaios_api/api/getLatestRelease^
 ||api-takumi.miyoushe.com/ptolemaios/api/getLatestRelease^
-
 ! 米游社PC端网页元素
 miyoushe.com##.mhy-ad-container
 miyoushe.com##.mhy-ad
@@ -51,6 +51,7 @@ miyoushe.com##.game-tool
 miyoushe.com##.mhy-qrcode-download-card
 miyoushe.com##.mhy-qrcode-top-card
 miyoushe.com##.mhy-rocket
+
 ! HoYoLab
 ||sentry.eks.hoyoverse.com^
 ||minor-api-os.hoyoverse.com^
@@ -64,3 +65,7 @@ act.hoyolab.com/ys/event/signin-sea-v3/index.html##[class*="recommend"]
 ||ys-log-upload.mihoyo.com^
 ||devlog-upload.mihoyo.com^
 ||uspider.yuanshen.com^
+
+! 崩坏：星穹铁道
+||hkrpg-log-upload.mihoyo.com^
+||webstatic.mihoyo.com/dora/biz/mihoyo-analysis/v2/main.js^
