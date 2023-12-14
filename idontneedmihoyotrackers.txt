@@ -42,6 +42,7 @@
 ||passport-api-static.mihoyo.com/account/ma-cn-passport/passport/getSwitchStatus
 ! 更新检测
 ||api-takumi.miyoushe.com/ptolemaios_api/api/getLatestRelease^
+||api-takumi.miyoushe.com/ptolemaios/api/getLatestRelease^
 
 ! 米游社PC端网页元素
 miyoushe.com##.mhy-ad-container
