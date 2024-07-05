@@ -1,7 +1,7 @@
 
 ! Title: 我不要米哈游跟踪器！
 ! Description: 禁止米哈游的米游社和原神等应用与游戏的跟踪器！
-! Version: 1.0.2
+! Version: 1.0.3
 
 ! 融云日志
 ||logcollection.ronghub.com^
@@ -27,6 +27,7 @@
 ||apm-log-upload.mihoyo.com^
 ||log-upload.mihoyo.com^
 ||h5collector.mihoyo.com^
+||h5log-api-dualstack.mihoyo.com^
 ||ad-log-upload.mihoyo.com^
 ||bbs-api.miyoushe.com/apihub/api/saveDevice
 ||bbs-api.miyoushe.com/apihub/api/deviceLogin
@@ -69,3 +70,7 @@ act.hoyolab.com/ys/event/signin-sea-v3/index.html##[class*="recommend"]
 ! 崩坏：星穹铁道
 ||hkrpg-log-upload.mihoyo.com^
 ||webstatic.mihoyo.com/dora/biz/mihoyo-analysis/v2/main.js^
+
+! 绝区零
+||zzz-log-upload.mihoyo.com^
+||data-abtest-api.mihoyo.com^
