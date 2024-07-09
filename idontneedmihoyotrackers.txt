@@ -1,7 +1,7 @@
 
 ! Title: 我不要米哈游跟踪器！
 ! Description: 禁止米哈游的米游社和原神等应用与游戏的跟踪器！
-! Version: 1.0.3
+! Version: 1.0.4
 
 ! 融云日志
 ||logcollection.ronghub.com^
