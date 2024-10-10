@@ -1,7 +1,7 @@
 
 ! Title: 我不要米哈游跟踪器！
 ! Description: 禁止米哈游的米游社和原神等应用与游戏的跟踪器！
-! Version: 1.0.4
+! Version: 1.0.5
 
 ! 融云日志
 ||logcollection.ronghub.com^
@@ -25,23 +25,28 @@
 ||abtest-api-data.mihoyo.com^
 ||apm-api.mihoyo.com^
 ||apm-log-upload.mihoyo.com^
+||apm-log-upload-v6.mihoyo.com^
 ||log-upload.mihoyo.com^
 ||h5collector.mihoyo.com^
 ||h5log-api-dualstack.mihoyo.com^
 ||ad-log-upload.mihoyo.com^
-||bbs-api.miyoushe.com/apihub/api/saveDevice
-||bbs-api.miyoushe.com/apihub/api/deviceLogin
-||bbs-api.miyoushe.com/painter/api/villa/notification/site_push
+||sdk-log-upload.mihoyo.com^
+||data-abtest-api.mihoyo.com^
+||webstatic.mihoyo.com/dora/biz/mihoyo-analysis/v2/main.js^
+||webstatic.mihoyo.com/dora/lib/sentry/7.52.1/sentry-vue.tracing.es5.min.js^
+||bbs-api.miyoushe.com/apihub/api/saveDevice^
+||bbs-api.miyoushe.com/apihub/api/deviceLogin^
+||bbs-api.miyoushe.com/painter/api/villa/notification/site_push^
 ||bbs-api.miyoushe.com/video/api/view^
-||bbs-api.miyoushe.com/teenager/api/info
-||bbs-api.miyoushe.com/apihub/api/window/prepare
-||bbs-api.miyoushe.com/apihub/api/window/show
-||bbs-api.miyoushe.com/post/api/homepage/user/video/feed/info
-||bbs-api.miyoushe.com/apihub/api/myselfPageConfig
-||bbs-api.miyoushe.com/post/wapi/recommend/position
-||api-takumi.mihoyo.com/common/csc_qna/public/getRedDot
+||bbs-api.miyoushe.com/teenager/api/info^
+||bbs-api.miyoushe.com/apihub/api/window/prepare^
+||bbs-api.miyoushe.com/apihub/api/window/show^
+||bbs-api.miyoushe.com/post/api/homepage/user/video/feed/info^
+||bbs-api.miyoushe.com/apihub/api/myselfPageConfig^
+||bbs-api.miyoushe.com/post/wapi/recommend/position^
+||api-takumi.mihoyo.com/common/csc_qna/public/getRedDot^
 ||bbs-api.miyoushe.com/vila/api/memberGetIsNeedTestInvitationPopup^
-||passport-api-static.mihoyo.com/account/ma-cn-passport/passport/getSwitchStatus
+||passport-api-static.mihoyo.com/account/ma-cn-passport/passport/getSwitchStatus^
 ! 更新检测
 ||api-takumi.miyoushe.com/ptolemaios_api/api/getLatestRelease^
 ||api-takumi.miyoushe.com/ptolemaios/api/getLatestRelease^
@@ -71,8 +76,6 @@ act.hoyolab.com/ys/event/signin-sea-v3/index.html##[class*="recommend"]
 
 ! 崩坏：星穹铁道
 ||hkrpg-log-upload.mihoyo.com^
-||webstatic.mihoyo.com/dora/biz/mihoyo-analysis/v2/main.js^
 
 ! 绝区零
 ||zzz-log-upload.mihoyo.com^
-||data-abtest-api.mihoyo.com^
